@@ -1,0 +1,121 @@
+<!--A partir del codigo HTML dado:
+1- Completar el archivo HTML para relacionarlo a su correspondiente archivo CSS.
+2- Estructurar el archivo HTML (elementeos h1, h2, ol, ul, li, img, etc.).
+3- Asignar clases y id a los elementos HTML que se crea necesario para estilar y/o navegar.
+4- Estilar toda la página utilizando los 3 selectores vistos en clase (tag, clase, id).
+5- Utilizar elementos anchor en la nav bar para redireccionar a las secciones (por id).
+6- Utilizar elemento anchor para redireccionar ya sea clickeando en un logo o un texto, 
+a la página del restaurante deseado. -->
+
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title> El Olimpo Cubano Bistró Gourmet </title>
+    <link rel="stylesheet" href="/stylesRestaurant.css">
+  </head>
+
+  <body>
+    <header>
+      <div class=".navbar">
+      <h1> <img src="PH_RESTO/olimpo cubano300.png" alt="logo"> </h1>
+       <nav>
+         <ol>
+           <li><a href="#Home">Home</a></li>
+           <li><a href="#Entradas">Entradas</a></li>
+           <li><a href="#Platos Principales">Platos Principales</a></li>
+           <li><a href="#Postres">Postres</a></li>
+           <li><a href="#Bebidas">Bebidas</a></li>
+           <li><a href="#Galería">Galería</a></li>
+           <li><a href="#Reservas">Reservas</a></li>
+         </ol>
+       </nav>
+      </div> 
+    </header>
+
+    <section id="Home">
+      <h2>Home</h2>
+        <div class="Bienvenida">
+          <img src="./PH_RESTO/Screenshot_18.png" alt="Bienvenida" width="1140" height="300">
+        </div>
+      </section>
+
+    <section id="Entradas">
+      <h3>Alta Cocina - Platillos de autor©</h3>
+        <p></p>
+      <h3>Entradas</h3>
+        <ul>
+            <li>» Gambas al ajillo</li>
+              <p>Langostinos salteados cocinados en mantequilla de ajo, vino blanco y pimentón ahumado.</p>
+            <li>» Croquetas cubanas</li>
+              <p>Croquetas de patata frita crujiente, jamón serrano y salsa habana.</p>
+            <li>» Guacamole</li>
+              <p>Aguacate, jalapeños, cilantro, tomate, ajo, cebolla, orégano, lima y totopos de maíz.</p>
+        </ul>
+    </section>
+
+    <section id="Platos Principales">
+      <h3>Platos Principales</h3>
+        <ul>
+            <li>» Ropa Vieja</li>
+              <p>Bistec estofado a fuego lento, tomates, pimientos, cebollas y aceitunas verdes servido con arroz blanco y frijoles negros.</p>
+            <li>» Ensalada de camarones</li>
+              <p>Camarones frescos, mango, piña, chiles, cebolla morada y albahaca sobre hojas verdes mixtas.</p>
+            <li>» Lomo a las Cuatro Pimientas</li>
+              <p>Medallones de lomo cocidos en blend de pimientas blanca, negra, verde y de Jamaica acompañado con bastones de mandioca frita. </p>
+        </ul>
+    </section>
+
+    <section id="Postres">
+      <h3>Postres</h3>
+        <ul>
+            <li>» Tres Leches</li>
+              <p>Bizcocho de vainilla empapado en leche cubierto con crema batida.</p>
+            <li>» Flan de Coco</li>
+              <p>Delicia de coco y leche condensada con baño de caramelo.</p>
+            <li>» Pudin cubano</li>
+              <p>Budín de pan tibio con plátanos caramelizados, pasas, ron, helado de vainilla y salsa de caramelo.</p>
+        </ul>
+    </section>
+
+    <section id="Bebidas">
+      <h3>Bebidas</h3>
+        <ul>
+            <li>» Mojito</li>
+              <p></p>
+            <li>» Margarita de Jalapeño</li>
+              <p></p>
+            <li>» Daiquiri Floridita</li>
+              <p></p>
+        </ul>
+    </section>
+
+    <section id="Galería">
+      <h4>Galería</h4>
+        <div class="Fotos">
+            <img src="./PH_RESTO/daiquiri.jpg" alt="Trago" width="550" height="500">
+            <img src="./PH_RESTO/Croquetascubanas.jpg" alt="Croquetas" width="570" height="500">
+            <img src="./PH_RESTO/Flan de Coco.jpg" alt="Flan" width="450" height="450">
+            <img src="./PH_RESTO/Guacamole.jpg" alt="Guacamole" width="670" height="450">
+            <img src="./PH_RESTO/Ropa_Vieja.png" alt="Ropa_Vieja" width="650" height="500">
+            <img src="./PH_RESTO/Ensalada de camarones.jpg" alt="Ensalada" width="470" height="500">
+            <img src="./PH_RESTO/Mojito.jpg" alt="Mojito" width="450" height="500">
+            <img src="./PH_RESTO/Tres Leches.png" alt="Postre" width="670" height="500">
+        </div>
+    </section>
+    
+
+    <section id="Reservas">
+      <h5>Reservas</h5>
+        <p id="p1">Personalmente en: Avenida Fleming 985, Villa Rosa, Pilar. Buenos Aires</p>
+        <p id="p2">O a los teléfonos: (516) 408-5659/5694/5673/5682</p>
+    </section>
+      
+    <section>
+      <footer>
+      <p id= "footer"> El Olimpo Cubano Bistró Gourmet® 2023 | Desarrollado por ETA ARAN </p> <a href= https://www.instagram.com/labodeguitamardelplata></a>
+      </footer>
+    </section>
+  </body>
+</html>
